@@ -35,8 +35,7 @@ secure-messenger-django/
 
 ## 3. Instalacja i uruchomienie
 
-> 💬 *Poniższe kroki są przeznaczone dla nowych użytkowników projektu lub do ponownego uruchomienia projektu na innym komputerze.*
-> *Jeśli masz już Django zainstalowane i środowisko gotowe — możesz pominąć część związaną z instalacją.*
+> **Uwaga:** Sekcja instalacji Django została pozostawiona z myślą o przyszłych użytkownikach tego repozytorium.
 
 ### Krok 1. Stwórz środowisko wirtualne (opcjonalnie, ale zalecane)
 
@@ -91,7 +90,7 @@ W kolejnym etapie planujemy:
 1. Sklonuj repozytorium:
 
 ```bash
-git clone [TUTAJ LINK DO REPO]
+git clone https://github.com/AgaKub/secure-messenger-django.git
 ```
 
 2. Przejdź do katalogu projektu:
@@ -123,5 +122,15 @@ python manage.py runserver
 ```
 
 **Do uruchomienia wymagany jest Python 3.10+ i Django 5+**
+
+---
+
+## 7. Dla Grześka
+
+* Aplikacja `messenger` to główna aplikacja Django, w której buduję logikę komunikatora.
+* Folder `core`, który widziałeś wcześniej, nie był aplikacją — `messenger` zastępuje tamtą strukturę i działa jako pełnoprawna aplikacja Django.
+* Repozytorium: [https://github.com/AgaKub/secure-messenger-django.git](https://github.com/AgaKub/secure-messenger-django.git)
+
+
 
 
